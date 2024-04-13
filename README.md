@@ -1,0 +1,1 @@
+All my solutions for codewars katas
