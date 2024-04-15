@@ -2,7 +2,6 @@ def order(sentence):
     words, words_copy = sentence.split(), sentence.split().copy()
     for i, word in enumerate(words.copy()):
         _i = int(get_pos(word))
-        print(f'{word} {_i}')
         words[_i-1] = words_copy[i]
     return ' '.join(words)
 
